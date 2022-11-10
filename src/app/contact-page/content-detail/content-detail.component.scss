@@ -1,0 +1,41 @@
+.header{
+    display: flex;
+    justify-content: center;
+    font-family: 'Lato' !important;
+    img{
+        border-radius: 2rem;
+        margin: 1rem;
+    }
+    p{
+        color: gray;
+        position: relative;
+        bottom: 14px;
+    }
+}
+
+.bio{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 1rem;
+    .title{
+        width: 9%;
+        text-align: end;
+        color: gray;
+    }
+    .description{
+        width: 88%;
+        text-align: justify;
+        .email-list{
+            display: flex;
+            flex-direction: column;
+            span{
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 1rem;
+                button{
+                    background: #F3F4F9;
+                }
+            };
+        }
+    }
+}

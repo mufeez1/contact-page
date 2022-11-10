@@ -1,0 +1,96 @@
+<div class="detail-main-div">
+    <span class="header">
+
+        <img [src]="contactDetail?.img" height="123" width="123" alt="" srcset="">
+
+        <span>
+
+            <h4>{{contactDetail?.name}}</h4>
+            <p> {{contactDetail?.role}}</p>
+
+            <span>
+                <button style="background: #6B59CC; color:white"> <i class="pi pi-comments"> </i>
+                    Message
+                </button>
+                <button> <i class="pi pi-phone"> </i>
+                </button>
+                <button> <i class="pi pi-upload"> </i>
+                </button>
+                <button> <i class="pi pi-ellipsis-h"> </i>
+                </button>
+            </span>
+
+        </span>
+
+    </span>
+
+    <div>
+
+        <!-- Bio -->
+        <span class="bio">
+            <p class="title">Bio</p>
+            <p class="description">{{contactDetail?.bio}}
+            </p>
+        </span>
+
+        <!-- Email -->
+        <span class="bio">
+            <p class="title">Email</p>
+            <p class="description">
+                <span class="email-list" *ngFor="let email of contactDetail?.email">
+                    <span>
+                        {{email.email}}
+                        <button *ngIf="email.isPrimary"> Primary
+                        </button>
+                    </span>
+                </span>
+            </p>
+        </span>
+
+        <!-- Dial -->
+        <span class="bio">
+            <p class="title">Dial</p>
+            <p class="description">{{contactDetail?.dial}}
+            </p>
+        </span>
+
+        <!-- Meeting -->
+        <span class="bio">
+            <p class="title">Meeting</p>
+            <p class="description">{{contactDetail?.meeting}}
+            </p>
+        </span>
+
+        <!-- Phone -->
+        <span class="bio">
+            <p class="title">Phone</p>
+            <p class="description">
+                <span class="email-list" *ngFor="let phone of contactDetail?.phone">
+                    <span>
+                        {{phone.phoneNo}}
+                        <button *ngIf="phone.isPrimary"> Primary
+                        </button>
+                    </span>
+                </span>
+            </p>
+        </span>
+
+
+        <!-- Social -->
+        <span class="bio">
+            <p class="title">Social</p>
+            <p class="description">
+                <button> <i class="pi pi-facebook"> </i>
+                </button>
+                <button> <i class="pi pi-twitter"> </i>
+                </button>
+                <button> <i class="pi pi-linkedin"> </i>
+                </button>
+                <button> <i class="pi pi-google"> </i>
+                </button>
+                <button> <i class="pi pi-amazon"> </i>
+                </button>
+            </p>
+        </span>
+    </div>
+</div>

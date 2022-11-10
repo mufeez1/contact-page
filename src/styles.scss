@@ -1,0 +1,33 @@
+/* You can add global styles to this file, and also import other style files */
+
+@font-face {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: normal;
+    src: url("./assets/fonts/Lato/Lato-Regular.ttf")
+      format("truetype");
+  };
+  
+@font-face {
+    font-family: "Lato-bold";
+    font-style: normal;
+    font-weight: normal;
+    src: url("./assets/fonts/Lato/Lato-Bold.ttf")
+      format("truetype");
+  };
+
+
+
+button{
+    margin-right: 0.5rem;
+    padding: 0.8rem;
+    color: #8083A3;
+    border-radius: 0.5rem;
+    font-size: 0.9rem;
+    cursor: pointer;
+    border: 1px solid #ECEEF5;
+    background: #FFFFFF;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Lato-bold' !important;
+}

@@ -1,0 +1,59 @@
+<div class="main-div">
+
+
+    <div class="list-main-div">
+
+        <span class="header">
+            <span>
+                <button> <i class="pi pi-align-justify"> </i>
+                </button>
+                <h3>Contacts</h3>
+            </span>
+            <span>
+                <button> <i class="pi pi-angle-left"> </i>
+                </button>
+                <button> <i class="pi pi-angle-right"> </i>
+                </button>
+            </span>
+        </span>
+
+        <hr>
+
+        <div class="search">
+            <p>Search for a contact</p>
+            <span>
+                <b>Name, email or phone number</b>
+
+                <i class="pi pi-search"></i>
+            </span>
+        </div>
+
+        <div *ngFor="let contact of contactsList;let i= index">
+
+            <div class="contact-list" [class.active]="selectedIndex===i" (click)="setContactData(contact,i)">
+
+                <span>
+                    <img [src]="contact.img" alt="" srcset="" style="margin-right: 1rem;">
+                    <div>
+                        <b>{{contact.name}}</b>
+                        <p>{{contact.role}}</p>
+                    </div>
+                </span>
+
+                <span>
+                    <button [class.active]="selectedIndex===i"> <i class="pi pi-comments"> </i>
+                    </button>
+                    <button [class.active]="selectedIndex===i"> <i class="pi pi-phone"> </i>
+                    </button>
+                    <button [class.active]="selectedIndex===i"> <i class="pi pi-ellipsis-h"> </i>
+                    </button>
+                </span>
+
+            </div>
+            <hr>
+        </div>
+
+
+    </div>
+    <app-content-detail class="content-comp" ></app-content-detail>
+</div>

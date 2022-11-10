@@ -1,0 +1,142 @@
+[
+    {
+        "name": "Ethe Price",
+        "role": "Developer",
+        "img": "/assets/persons/profile-4.png",
+        "email": [
+            {
+                "email": "Hello@ethe.com",
+                "isPrimary": true
+            },
+            {
+                "email": "Hello@ethe.com",
+                "isPrimary": false
+            },
+            {
+                "email": "Hello@ethe.com",
+                "isPrimary": false
+            }
+        ],
+        "bio": "When I first got into the advertising, I was looking for the magical combination that would put website into the top search engine rankings.",
+        "dial":"Hello@ethe.com",
+        "meeting":"http://go.betacall.com/meet/j.stevens",
+        "phone": [
+            
+            {
+                "phoneNo": "439-582-1578",
+                "isPrimary": false
+            },
+            {
+                "phoneNo": "621-770-7689",
+                "isPrimary": true
+            }
+        ]
+
+    },
+
+    {
+        "name": "Bradley Malone",
+        "role": "Sales Manager",
+        "img": "/assets/persons/profile-3.png",
+        "email": [
+            {
+                "email": "johanna.stevens@gmail.com",
+                "isPrimary": true
+            },
+            {
+                "email": "johanna.stevens@gmail.com",
+                "isPrimary": false
+            },
+            {
+                "email": "johanna.stevens@gmail.com",
+                "isPrimary": false
+            }
+        ],
+        "bio": "When I first got into the advertising, I was looking for the magical combination that would put website into the top search engine rankings.",
+        "dial":"johanna.stevens@gmail.com",
+        "meeting":"http://go.betacall.com/meet/j.stevens",
+        "phone": [
+            
+            {
+                "phoneNo": "439-582-1578",
+                "isPrimary": false
+            },
+            {
+                "phoneNo": "621-770-7689",
+                "isPrimary": true
+            }
+        ]
+
+    },
+
+    {
+        "name": "Fred Haynes",
+        "role": "Developer",
+        "img": "/assets/persons/profile-2.png",
+        "email": [
+            {
+                "email": "Fred@Developer.com",
+                "isPrimary": true
+            },
+            {
+                "email": "Fred@Developer.com",
+                "isPrimary": false
+            },
+            {
+                "email": "Fred@Developer.com",
+                "isPrimary": false
+            }
+        ],
+        "bio": "When I first got into the advertising, I was looking for the magical combination that would put website into the top search engine rankings.",
+        "dial":"Fred@Developer.com",
+        "meeting":"http://go.betacall.com/meet/j.stevens",
+        "phone": [
+            
+            {
+                "phoneNo": "439-582-1578",
+                "isPrimary": false
+            },
+            {
+                "phoneNo": "621-770-7689",
+                "isPrimary": true
+            }
+        ]
+
+    },
+
+    {
+        "name": "Rose Peters",
+        "role": "UI/UX Designer",
+        "img": "/assets/persons/profile-1.png",
+        "email": [
+            {
+                "email": "Rose@Peters.com",
+                "isPrimary": true
+            },
+            {
+                "email": "Rose@Peters.com",
+                "isPrimary": false
+            },
+            {
+                "email": "Rose@Peters.com",
+                "isPrimary": false
+            }
+        ],
+        "bio": "When I first got into the advertising, I was looking for the magical combination that would put website into the top search engine rankings.",
+        "dial":"Rose@Peters.com",
+        "meeting":"http://go.betacall.com/meet/j.stevens",
+        "phone": [
+            
+            {
+                "phoneNo": "439-582-1578",
+                "isPrimary": false
+            },
+            {
+                "phoneNo": "621-770-7689",
+                "isPrimary": true
+            }
+        ]
+
+    }
+   
+]
